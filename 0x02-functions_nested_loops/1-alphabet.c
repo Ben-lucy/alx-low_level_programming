@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
  * print_alphabet - function to print alphabets in lower case
@@ -8,7 +9,8 @@ void print_alphabet(void)
 char letter = 'a';
 while (letter <= 'z')
 {
-_putchar(letter);
+putchar(letter);
 letter++;
 }
-_putc
+putchar('\n');
+}
